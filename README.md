@@ -52,3 +52,14 @@ Arquivos do projeto para a Apeperia
 * Ao usar a tag root não corremos o risco de ser sobreescrita. As variáveis declaradas terão escopo "global". 
 * Declaramos dentro de algum seletor (que costuma ser o :root {}) escrevendo --nome-da-variavel: valor
    + Chamamos as variáveis seguindo uma sintaxe, usamos uma função var e passando o nome da variável dentro dessa função.
+   
+### Uso do emmet
+
+section.destaque.container>h2.destaques__titulo+(a*2>figure.destaque__painel>img.destaque_painel-imagem+figcaption.destaque__painel-texto)+a.destaques__botao.botao
+
+### Uso de unidades viewport e max-width com medidas fixas
+
+Unidades de viewport são unidades relativas, como por exemplo, porcentagem.
+100vh -> 100% da altura da tela do dispositivo
+100vw -> 100 % da largura da tela do dispositivo
+
