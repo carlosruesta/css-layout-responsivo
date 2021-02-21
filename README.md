@@ -17,3 +17,38 @@ Arquivos do projeto para a Apeperia
  gerado por uma instrução de computador.
 * É recomendado usar imagens do tipo SVG em imagens simplificadas, ícones e logotipos. SVG não consegue manter detalhes de uma imagem complexa.
 
+### Mobile First - Desktop First
+
+* Na hora de seguir um conceito de desenvolvimento, seja mobile-first ou desktop-first, não existe certo ou errado. 
+* Cada um deles tem suas vantagens e desvantagens, e elas devem ser avaliadas de acordo com as necessidades do projeto.
+
+* Algumas motivações para usar mobile-first:
+   + Grande parte dos acessos e vendas vem de dispositivos mobile
+   + O design é minimalista e simplificado
+   + Foco em conteúdo
+* Algumas motivações para usar desktop-first:
+   + A interface pode ter diversas features mais ricas
+   + Maior capacidade de banda e processamento
+   + O produto é otimizado para desktop (ex: Google Docs)
+
+* Então na hora de desenvolver é importante analisar todos os pontos que vão influenciar no projeto:
+   + clientes, 
+   + features, 
+   + custo
+   + linguagem visual
+* São alguns dos pontos que vão favorecer uma abordagem sobre a outra.
+
+### Meta Viewport
++ O meta “viewport” é o que habilita o navegador a visualizar a página como se fosse um dispositivo móvel.
++ “meta name=“viewport” content=”largura da tela vai ser igual a largura do dispositivo”
++ Como o browser não tem como saber o tamanho da tela do dispositivo em polegadas, ele usa a resolução do dispositivo como um parâmetro. 
++ O “viewport” faz uma conversão desse tamanho em pixels para um tamanho que seja plausível, um tamanho que seja mais amigável para um celular daquele tamanho. 
++ “initial-scale” no “1.0” para garantir que a escala da página sempre vai ficar proporcional ao tamanho da tela do dispositivo
++ “initial-scale” menor que “1.0” geram um zoom maior na renderização do site
+
+### Uso variaveis e Tag root
+* Para declaração de variáveis de ambiente. No caso, de cores, foi adicionada a tag root no CSS base.
+* A tag "root" ela representa a tag HTML só que com especifidade e peso maior.
+* Ao usar a tag root não corremos o risco de ser sobreescrita. As variáveis declaradas terão escopo "global". 
+* Declaramos dentro de algum seletor (que costuma ser o :root {}) escrevendo --nome-da-variavel: valor
+   + Chamamos as variáveis seguindo uma sintaxe, usamos uma função var e passando o nome da variável dentro dessa função.
