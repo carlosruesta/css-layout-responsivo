@@ -63,3 +63,13 @@ Unidades de viewport são unidades relativas, como por exemplo, porcentagem.
 100vh -> 100% da altura da tela do dispositivo
 100vw -> 100 % da largura da tela do dispositivo
 
+### Semantica no código
+
+- Quando falamos de código semântico, estamos falando de escrever um código legível, com conteúdo bem descrito e bem estruturado.
+- As principais vantagens em escrevemos um código semântico são:
+  + Para atendermos aos requisitos de acessibilidade. Temos que deixar nossa página mais inclusiva possível e para isso precisamos 
+    utilizar todas as tags corretas para demarcar todo o conteúdo da página corretamente.
+  + Para que outras pessoas desenvolvedoras possam entender. Temos que lembrar que o nosso código talvez precise passar por outras 
+    pessoas e elas precisam entender o que está acontecendo quando ler nosso código.
+  + Para ferramentas de indexação. Existem vários bots (ferramentas automáticas) que verificam todo o código do nosso projeto, e 
+    depois validam para mudar o posicionamento da nossa página nos resultados de motores de busca (ex: Google, Bing, Yahoo).
