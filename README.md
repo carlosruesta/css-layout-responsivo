@@ -73,3 +73,10 @@ Unidades de viewport são unidades relativas, como por exemplo, porcentagem.
     pessoas e elas precisam entender o que está acontecendo quando ler nosso código.
   + Para ferramentas de indexação. Existem vários bots (ferramentas automáticas) que verificam todo o código do nosso projeto, e 
     depois validam para mudar o posicionamento da nossa página nos resultados de motores de busca (ex: Google, Bing, Yahoo).
+
+### Media Queries
+
+Para saber mais sobre breakpoints e valores genéricos para dispositivos (referência em inglês):
+
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+ 
